@@ -1,4 +1,4 @@
-# Deploy an Application to GKE (Google Kubernetes Engine) From the Image saved In Goodle Container Registry(GCR)
+# Deploy an Application to GKE (Google Kubernetes Engine) From the Image saved In Google Container Registry(GCR)
 
 This guide will walk you through deploying a simple Node.js application to Google Kubernetes Engine (GKE) using Docker and Kubernetes.
 
