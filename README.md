@@ -2,7 +2,7 @@
 
 This guide will walk you through deploying a simple Node.js application to Google Kubernetes Engine (GKE) using Docker and Kubernetes.
 
-## 🚀 Technologies Used
+##  Technologies Used
 
 * Node.js
 * Docker
@@ -12,7 +12,7 @@ This guide will walk you through deploying a simple Node.js application to Googl
 
 ---
 
-## 📌 Steps
+## Steps
 
 ### 1. Create a Kubernetes Cluster on GKE
 
@@ -199,7 +199,7 @@ http://<EXTERNAL-IP>
 
 ---
 
-## 🗙️ Cleanup
+##  Cleanup
 
 To avoid charges, delete resources:
 
