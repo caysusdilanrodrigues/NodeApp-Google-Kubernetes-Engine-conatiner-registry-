@@ -31,14 +31,14 @@
       4. Write a Dockerfile for the Application
       Create a Dockerfile for your application with the following content:
       
-      FROM --platform=linux/amd64 node:14
-      WORKDIR /usr/app
-      COPY package.json .
-      RUN npm install
-      COPY . .
-      EXPOSE 80
-      CMD ["node", "app.js"]
-      
+                  FROM --platform=linux/amd64 node:14
+                  WORKDIR /usr/app
+                  COPY package.json .
+                  RUN npm install
+                  COPY . .
+                  EXPOSE 80
+                  CMD ["node", "app.js"]
+                  
       
       5. Build the Docker Image
       Build the Docker image using the following command:
